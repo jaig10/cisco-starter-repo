@@ -18,7 +18,7 @@ const bull = (
 export default function Cards({children, name}) {
   return (
     <Card sx={{ 
-        minWidth:500,
+        minWidth:300,
         margin: 5,
     }}>
       <CardContent>

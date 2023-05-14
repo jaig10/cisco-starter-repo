@@ -3,6 +3,7 @@ import './App.css';
 import Cards from './Components/Cards';
 import Navbar from './Components/Navbar';
 import DisplayIP from './Components/DisplayIP';
+import Pylon from './Components/Pylon';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Cards>
         <Cards name="Public IPv6 Address">
           <DisplayIP url='https://api64.ipify.org?format=json'/>
+        </Cards>
+        <Cards name="Packet Latency">
+          <Pylon />
         </Cards>
         
       </Box>

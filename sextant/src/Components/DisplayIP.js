@@ -4,7 +4,7 @@ function DisplayIP(props) {
 
     const [ip, setIp] = useState();
     const getIP = async ()=>{
-        console.log(props.url);
+        // console.log(props.url);
         const response = await fetch(props.url);
         const data = await response.json();
         setIp(data.ip);
